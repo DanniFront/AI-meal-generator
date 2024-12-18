@@ -1,7 +1,60 @@
-h1 {
-  text-align: center;
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/077/original/veggiepicture.jpg?1734521495");
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+  max-width: 600px;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  border-radius: 10px;
+}
+
+.input-box {
+  margin-left: 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 16px;
+  width: 80%;
+}
+
+.submit-button {
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(231, 109, 61);
+  color: #fff;
+  font-size: 16px;
+  padding: 16px;
+  margin: 0 10px;
+}
+
+.meal {
+  padding: 20px;
+  line-height: 1.5;
+}
+
+a {
+  color: rgb(231, 109, 61);
+}
 footer {
+  color: #fff;
+  font-size: 12px;
   text-align: center;
 }
