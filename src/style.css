@@ -7,7 +7,8 @@ body {
 .container {
   max-width: 600px;
   background-color: #fff;
-  margin: 20px auto;
+  margin: 40px auto;
+  padding-bottom: 30px;
   border-radius: 10px;
 }
 
@@ -16,23 +17,26 @@ header {
 }
 
 h1 {
-  padding: 20px;
+  padding-top: 30px;
   font-size: 36px;
   text-align: center;
   margin: 0;
 }
 
 form {
-  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .input-box {
-  margin-left: 10px;
   border-radius: 50px;
+  border: 2px solid rgb(231, 109, 61);
   font-size: 16px;
   padding: 16px;
-  width: 80%;
+  width: 70%;
 }
 
 .submit-button {
@@ -42,12 +46,18 @@ form {
   color: #fff;
   font-size: 16px;
   padding: 16px;
-  margin: 0 10px;
+  width: 120px;
 }
 
-.meal {
-  padding: 20px;
+.recipe {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
   line-height: 1.5;
+  font-size: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 3px solid rgb(231, 109, 61);
 }
 
 a {
@@ -57,4 +67,5 @@ footer {
   color: #fff;
   font-size: 12px;
   text-align: center;
+  padding-top: 10px;
 }
