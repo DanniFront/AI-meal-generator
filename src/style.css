@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   background-color: #fff;
   margin: 40px auto;
   padding-bottom: 30px;
@@ -50,7 +50,8 @@ form {
 }
 
 .recipe {
-  max-width: 600px;
+  max-width: 700px;
+  min-height: 75px;
   margin: 0 auto;
   background-color: #fff;
   line-height: 1.5;
@@ -61,7 +62,7 @@ form {
 }
 
 a {
-  color: rgb(231, 109, 61);
+  color: #fff;
 }
 footer {
   color: #fff;
