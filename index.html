@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Swedish Recipe Generator</title>
   </head>
@@ -17,18 +18,19 @@
         <form id="recipe-generator-form">
           <input
             type="text"
-            placeholder="What do you want for dinner?"
+            placeholder="Search for a swedish dinner dish"
             autofocus
             required
             autocomplete="off"
             class="input-box"
+            id="instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
       </div>
       <div class="recipe" id="generated-recipe"></div>
     </main>
-    
+
     <footer>
       This AI project was coded by
       <a href="https://github.com/DanniFront" target="_blank">Daniela Mure</a>
