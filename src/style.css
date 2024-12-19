@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 36px;
   text-align: center;
   margin: 0;
@@ -51,14 +51,33 @@ form {
 
 .recipe {
   max-width: 700px;
-  min-height: 75px;
+  min-height: 50px;
   margin: 0 auto;
   background-color: #fff;
   line-height: 1.5;
-  font-size: 16px;
   padding: 10px;
+  font-size: 16px;
   box-sizing: border-box;
   border-left: 4px solid rgb(231, 109, 61);
+}
+
+.hidden {
+  display: none;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 a {
