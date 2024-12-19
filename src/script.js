@@ -1,5 +1,4 @@
 function displayRecipe(response) {
-  console.log("recipe generated");
   new Typewriter("#generated-recipe", {
     strings: response.data.answer,
     autoStart: true,
@@ -18,8 +17,6 @@ function generateRecipe(event) {
   let context =
     "You are a professional chef and know many simple and short swedish recipes. You may ONLY write ingredients and not instructions. Please answer in pure html, but don´t write ```html``` and with seperate lines.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
-
-  console.log("generating");
 
   let recipeElement = document.querySelector("#generated-recipe");
   recipeElement.classList.remove("hidden");
